@@ -2,11 +2,11 @@
 # out the current state.
 
 def display_board(board)
-  print_row(board))
+  print_row(board[0..2])
   print_dashes
-  print_row(board)
+  print_row(board[3..5])
   print_dashes
-  print_row(board)
+  print_row(board[6..8])
 end
 
 # def print_row(row)
