@@ -9,10 +9,10 @@ def display_board(board)
   print_row(board[6..8])
 end
 
-def print_row(row)
-  puts " #{row[0]} | #{row[1]} | #{row[2]} "
-end
+# def print_row(row)
+#   puts " #{row[0]} | #{row[1]} | #{row[2]} "
+# end
 
-def print_dashes
-  puts "-" * 11
-end
+# def print_dashes
+#   puts "-" * 11
+# end
